@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0 (2026-11-26)
+
+- Interactive wheel on GitHub Pages (https://hablamusic.github.io/camelot-wheel/, EN/ES/PT): tap a key, type any notation, mashup check.
+- README: "Start here" paths, animated wheel and terminal demo, new banner and social preview, `npx skills add` install.
+
 ## 0.1.0 (2026-11-26)
 
 - Key parser for Camelot, Open Key, letter names with sharps/flats/unicode, Spanish and Portuguese solfège.

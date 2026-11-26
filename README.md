@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img alt="camelot-wheel: Camelot wheel and harmonic mixing toolkit for DJs" src="assets/banner.svg" width="1280" height="320">
-</picture>
+<a href="https://hablamusic.github.io/camelot-wheel/"><img alt="Camelot Wheel by HablaMusic: tap a key to see which keys mix with it, free in your browser" src="assets/social-preview.jpg" width="1280" height="640"></a>
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-fb5607?style=flat-square&labelColor=1a1d20)](LICENSE)
 [![Node 18+ and browsers](https://img.shields.io/badge/node_18%2B-and_browsers-fb5607?style=flat-square&labelColor=1a1d20)](#use-it-as-a-library)
@@ -13,6 +9,8 @@
 [![Made by HablaMusic](https://img.shields.io/badge/made_by-HablaMusic-fb5607?style=flat-square&labelColor=1a1d20)](https://hablamusic.com/learn/harmonic-mixing-camelot-wheel?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel)
 
 **The Camelot wheel as code: convert any key to Camelot and Open Key, see which keys mix, check a mashup, and order a playlist into a harmonic DJ set.**
+
+<a href="https://hablamusic.github.io/camelot-wheel/"><b>▶ Open the interactive wheel</b></a> · no install, works on your phone
 
 [Camelot chart](#the-camelot-wheel-chart) · [Quickstart](#quickstart) · [Mixing moves](#mixing-moves) · [Mashup check](#mashup-check) · [Set planner](#set-planner) · [Library](#use-it-as-a-library) · [FAQ](#faq)
 
@@ -27,6 +25,20 @@ The Camelot wheel gives each of the 24 musical keys a code from 1A to 12B: the n
 | **Every notation** | **Mashup math** | **Set planner** |
 |:---|:---|:---|
 | Camelot, Open Key (Traktor), letter names, sharps and flats, and Spanish/Portuguese solfège (Do, Re, Mi...). | Tempo stretch with half/double time, where the key lands without key lock, and the smallest pitch shift that makes two tracks compatible. | Reads the CSV from [bpm-key-finder](https://github.com/hablamusic/bpm-key-finder) and orders tracks so each transition is a harmonic move with a small tempo change. |
+
+## Start here: pick your way
+
+<img align="right" src="assets/wheel.svg" alt="Animated Camelot wheel: each selected key lights up the keys it mixes with, green for safe moves, orange for energy boosts, gold for creative moves" width="330">
+
+| You are… | Do this |
+|---|---|
+| A DJ who just wants the answer | Open the **[interactive wheel](https://hablamusic.github.io/camelot-wheel/)**, tap your key, see what mixes. Type keys in any notation, check a mashup. |
+| Fine with copy and paste | With [Node.js LTS](https://nodejs.org/) installed, paste `npx github:hablamusic/camelot-wheel "A minor"` in Terminal or PowerShell |
+| Using Claude Code, Cursor or Codex | `npx skills add hablamusic/camelot-wheel`, then ask *"which keys mix with 8A?"* or *"order this playlist into a harmonic set"* |
+
+Green: safe moves (same key, ±1, relative). Orange: energy boosts (+2, +7). Gold: creative moves (diagonals, parallel key).
+
+<br clear="right">
 
 ## The Camelot wheel chart
 
@@ -173,3 +185,7 @@ Yes. One semitone up moves the code +7 (8A → 3A); one semitone down moves it �
 ## License
 
 MIT. Made by [HablaMusic](https://hablamusic.com/?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel), an AI music generator with free in-browser DJ tools in English, Spanish and Portuguese. "Camelot" is used here as the common DJ name for this key notation; this project is not affiliated with Mixed In Key.
+
+## Author
+
+Built by **Vlad Yasinski**, AI growth consultant ([roimobi.com](https://www.roimobi.com/?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel) · [LinkedIn](https://www.linkedin.com/in/vlad-yasinski-ua5er/)), as part of [HablaMusic](https://hablamusic.com/?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel). More free DJ tools: [github.com/hablamusic](https://github.com/hablamusic) · [hablamusic.github.io](https://hablamusic.github.io/).

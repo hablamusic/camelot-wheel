@@ -13,3 +13,5 @@ jobs:
         with: { node-version: "${{ matrix.node }}" }
       - run: node test/run.js
       - run: node bin/camelot.js 8A
+      - name: web copy of the library matches src
+        run: cmp src/camelot.js docs/lib/camelot.js

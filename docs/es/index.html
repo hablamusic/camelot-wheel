@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rueda Camelot interactiva para mezcla armónica (DJ)</title>
+<meta name="description" content="Toca una tonalidad en la rueda Camelot interactiva y mira con cuáles mezcla. Convierte cualquier tonalidad a Camelot y Open Key, y revisa si dos canciones sirven para un mashup. Gratis y de código abierto.">
+<link rel="canonical" href="https://hablamusic.github.io/camelot-wheel/es/">
+<link rel="alternate" hreflang="en" href="https://hablamusic.github.io/camelot-wheel/"><link rel="alternate" hreflang="es" href="https://hablamusic.github.io/camelot-wheel/es/"><link rel="alternate" hreflang="pt-BR" href="https://hablamusic.github.io/camelot-wheel/pt/"><link rel="alternate" hreflang="x-default" href="https://hablamusic.github.io/camelot-wheel/">
+<meta name="author" content="HablaMusic">
+<meta name="theme-color" content="#1a1d20">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HablaMusic open source">
+<meta property="og:title" content="Rueda Camelot interactiva para DJ (gratis, código abierto)">
+<meta property="og:description" content="Toca una tonalidad en la rueda Camelot interactiva y mira con cuáles mezcla. Convierte cualquier tonalidad a Camelot y Open Key, y revisa si dos canciones sirven para un mashup. Gratis y de código abierto.">
+<meta property="og:url" content="https://hablamusic.github.io/camelot-wheel/es/">
+<meta property="og:image" content="https://hablamusic.github.io/camelot-wheel/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Rueda Camelot interactiva de HablaMusic con las tonalidades compatibles">
+<meta property="og:locale" content="es_LA">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css">
+<link rel="preload" as="image" href="../hero.webp">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://hablamusic.com/#organization", "name": "HablaMusic", "url": "https://hablamusic.com", "logo": "https://hablamusic.com/icon-512.png", "sameAs": ["https://github.com/hablamusic"]}, {"@type": "Person", "@id": "https://www.roimobi.com/#person", "name": "Vlad Yasinski", "url": "https://www.roimobi.com", "sameAs": ["https://www.linkedin.com/in/vlad-yasinski-ua5er/", "https://github.com/ua5er"]}, {"@type": "WebApplication", "name": "Rueda Camelot para mezcla armónica", "url": "https://hablamusic.github.io/camelot-wheel/es/", "applicationCategory": "MultimediaApplication", "operatingSystem": "Any (web browser)", "inLanguage": "es", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@id": "https://hablamusic.com/#organization"}, "creator": {"@id": "https://www.roimobi.com/#person"}, "description": "Toca una tonalidad en la rueda Camelot interactiva y mira con cuáles mezcla. Convierte cualquier tonalidad a Camelot y Open Key, y revisa si dos canciones sirven para un mashup. Gratis y de código abierto."}, {"@type": "SoftwareSourceCode", "name": "camelot-wheel", "codeRepository": "https://github.com/hablamusic/camelot-wheel", "programmingLanguage": "JavaScript", "license": "https://opensource.org/licenses/MIT", "runtimePlatform": "Node.js 18+, web browsers", "author": {"@id": "https://hablamusic.com/#organization"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Qué es la rueda Camelot?", "acceptedAnswer": {"@type": "Answer", "text": "Una tabla que le da a cada una de las 24 tonalidades un código de 1A a 12B. El número es la posición en un reloj (cada paso es una quinta) y la letra es el modo: A es menor, B es mayor. Los DJ la usan para elegir canciones cuyas tonalidades combinan."}}, {"@type": "Question", "name": "¿Qué tonalidades Camelot mezclan bien?", "acceptedAnswer": {"@type": "Answer", "text": "Desde cualquier código: el mismo, un número arriba o abajo con la misma letra, y el mismo número con la otra letra. Dos pasos arriba (+2) o siete (+7, un semitono) suben la energía en transiciones cortas."}}, {"@type": "Question", "name": "¿Qué diferencia hay entre Camelot y Open Key?", "acceptedAnswer": {"@type": "Answer", "text": "La misma idea con otras etiquetas. Open Key (Traktor) empieza en Do mayor = 1d y La menor = 1m; en Camelot Do mayor = 8B y La menor = 8A."}}, {"@type": "Question", "name": "¿Cambiar el pitch cambia el código Camelot?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. Un semitono arriba suma 7 (8A pasa a 3A). Sin key lock, acelerar una canción un 6 % la sube aproximadamente un semitono."}}, {"@type": "Question", "name": "¿Cómo saco la tonalidad de mis canciones?", "acceptedAnswer": {"@type": "Answer", "text": "Usa el detector de BPM y tonalidad gratis: suelta tus canciones y te da el código Camelot de cada una."}}]}]}</script>
+
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="https://hablamusic.com/es/?utm_source=github&utm_medium=pages&utm_campaign=camelot-wheel"><img src="../favicon.png" alt="" width="30" height="30">HablaMusic</a>
+<nav class="links" aria-label="Main"><a class="hide-m" href="https://hablamusic.github.io/bpm-key-finder/es/">Detector de BPM y tonalidad</a><a class="hide-m" href="https://hablamusic.github.io/awesome-ai-dj-prompts/es/">Prompts de IA para DJ</a><a href="https://github.com/hablamusic/camelot-wheel">GitHub</a><span class="langs"><a href="../" hreflang="en">EN</a><a href="../es/" hreflang="es" aria-current=true>ES</a><a href="../pt/" hreflang="pt-BR">PT</a></span></nav>
+</div></header>
+<main id="main">
+
+<section class="hero"><img class="bgimg" src="../hero.webp" alt="" width="1600" height="700" fetchpriority="high"><div class="wrap">
+<span class="kicker"><b>●</b> gratis · código abierto · funciona sin conexión</span>
+<h1>Rueda Camelot para mezcla armónica</h1>
+<p class="lede">Toca una tonalidad y mira qué mezcla con ella: movimientos seguros, subidas de energía y cambios atrevidos. Escribe una tonalidad en cualquier notación o revisa dos canciones para un mashup. Todo corre en tu navegador.</p>
+<div class="ctas"><a class="btn hot" href="#app">Abrir la rueda ↓</a><a class="btn" href="#mashup">Revisar un mashup</a></div>
+</div></section>
+<section id="app"><div class="wrap split">
+<div><svg id="wheel" viewBox="-210 -210 420 420" role="img" aria-label="Camelot wheel" style="width:100%;max-width:520px;display:block;margin:auto"></svg></div>
+<div><h2 style="font-size:22px">Toca una tonalidad</h2>
+<label class="muted small" for="q">Escribe una tonalidad</label>
+<div style="display:flex;gap:8px;margin:6px 0 16px"><input id="q" placeholder="La menor, Am, 8A, Fa# menor, Si bemol mayor…" style="flex:1" autocomplete="off"></div>
+<div id="sel" class="card" aria-live="polite"></div></div>
+</div></section>
+<section id="mashup"><div class="wrap"><h2>¿Sirven estas dos canciones para un mashup?</h2><p class="sub">Pon el BPM y la tonalidad de cada canción (del detector de BPM, Rekordbox o Serato).</p>
+<form id="mf" class="grid3" style="align-items:end">
+<div class="card"><h3>Canción A</h3><div style="display:flex;gap:8px"><input name="ba" type="number" min="40" max="220" step="0.1" value="96" aria-label="Canción A BPM" style="width:90px"><input name="ka" value="8A" aria-label="Canción A Tonalidad" style="flex:1"></div></div>
+<div class="card"><h3>Canción B</h3><div style="display:flex;gap:8px"><input name="bb" type="number" min="40" max="220" step="0.1" value="94" aria-label="Canción B BPM" style="width:90px"><input name="kb" value="2A" aria-label="Canción B Tonalidad" style="flex:1"></div></div>
+<div><button class="btn hot" type="submit">Revisar</button></div></form>
+<div id="mres" class="card" style="margin-top:16px" aria-live="polite"></div></div></section>
+<section><div class="wrap"><h2>Tabla de la rueda Camelot</h2><p class="sub">Las 24 tonalidades con sus códigos Camelot y Open Key.</p>
+<div class="tablewrap"><table><thead><tr><th>Camelot</th><th>Menor</th><th>Open Key</th><th>Camelot</th><th>Mayor</th><th>Open Key</th></tr></thead><tbody><tr><td><span class=pill>1A</span></td><td>La♭ menor</td><td>6m</td><td><span class=pill>1B</span></td><td>Si mayor</td><td>6d</td></tr><tr><td><span class=pill>2A</span></td><td>Mi♭ menor</td><td>7m</td><td><span class=pill>2B</span></td><td>Fa# mayor</td><td>7d</td></tr><tr><td><span class=pill>3A</span></td><td>Si♭ menor</td><td>8m</td><td><span class=pill>3B</span></td><td>Do# mayor</td><td>8d</td></tr><tr><td><span class=pill>4A</span></td><td>Fa menor</td><td>9m</td><td><span class=pill>4B</span></td><td>La♭ mayor</td><td>9d</td></tr><tr><td><span class=pill>5A</span></td><td>Do menor</td><td>10m</td><td><span class=pill>5B</span></td><td>Mi♭ mayor</td><td>10d</td></tr><tr><td><span class=pill>6A</span></td><td>Sol menor</td><td>11m</td><td><span class=pill>6B</span></td><td>Si♭ mayor</td><td>11d</td></tr><tr><td><span class=pill>7A</span></td><td>Re menor</td><td>12m</td><td><span class=pill>7B</span></td><td>Fa mayor</td><td>12d</td></tr><tr><td><span class=pill>8A</span></td><td>La menor</td><td>1m</td><td><span class=pill>8B</span></td><td>Do mayor</td><td>1d</td></tr><tr><td><span class=pill>9A</span></td><td>Mi menor</td><td>2m</td><td><span class=pill>9B</span></td><td>Sol mayor</td><td>2d</td></tr><tr><td><span class=pill>10A</span></td><td>Si menor</td><td>3m</td><td><span class=pill>10B</span></td><td>Re mayor</td><td>3d</td></tr><tr><td><span class=pill>11A</span></td><td>Fa# menor</td><td>4m</td><td><span class=pill>11B</span></td><td>La mayor</td><td>4d</td></tr><tr><td><span class=pill>12A</span></td><td>Do# menor</td><td>5m</td><td><span class=pill>12B</span></td><td>Mi mayor</td><td>5d</td></tr></tbody></table></div></div></section>
+<section><div class="wrap"><h2>Úsala en código o en la terminal</h2><p class="sub">JavaScript sin dependencias para Node.js y navegadores, más una CLI.</p><div class="cmd"><pre><code>npx github:hablamusic/camelot-wheel &quot;La menor&quot;
+npx github:hablamusic/camelot-wheel mix 96 8A 94 2A</code></pre><button class="copy" type="button" data-copy="npx github:hablamusic/camelot-wheel &quot;La menor&quot;
+npx github:hablamusic/camelot-wheel mix 96 8A 94 2A">copy</button></div></div></section>
+<section id="faq"><div class="wrap"><h2>Preguntas frecuentes</h2><details><summary>¿Qué es la rueda Camelot?</summary><p>Una tabla que le da a cada una de las 24 tonalidades un código de 1A a 12B. El número es la posición en un reloj (cada paso es una quinta) y la letra es el modo: A es menor, B es mayor. Los DJ la usan para elegir canciones cuyas tonalidades combinan.</p></details><details><summary>¿Qué tonalidades Camelot mezclan bien?</summary><p>Desde cualquier código: el mismo, un número arriba o abajo con la misma letra, y el mismo número con la otra letra. Dos pasos arriba (+2) o siete (+7, un semitono) suben la energía en transiciones cortas.</p></details><details><summary>¿Qué diferencia hay entre Camelot y Open Key?</summary><p>La misma idea con otras etiquetas. Open Key (Traktor) empieza en Do mayor = 1d y La menor = 1m; en Camelot Do mayor = 8B y La menor = 8A.</p></details><details><summary>¿Cambiar el pitch cambia el código Camelot?</summary><p>Sí. Un semitono arriba suma 7 (8A pasa a 3A). Sin key lock, acelerar una canción un 6 % la sube aproximadamente un semitono.</p></details><details><summary>¿Cómo saco la tonalidad de mis canciones?</summary><p>Usa el <a href="https://hablamusic.github.io/bpm-key-finder/es/">detector de BPM y tonalidad</a> gratis: suelta tus canciones y te da el código Camelot de cada una.</p></details></div></section>
+
+</main>
+<footer><div class="wrap cols">
+<div><strong>Hecho por <a href="https://hablamusic.com/es/?utm_source=github&utm_medium=pages&utm_campaign=camelot-wheel">HablaMusic</a></strong><br>Generador de música con IA y herramientas DJ gratis en español, inglés y portugués.<br><a href="https://hablamusic.com/es/dj-tools?utm_source=github&utm_medium=pages&utm_campaign=camelot-wheel">Herramientas DJ gratis</a></div>
+<div><strong>Más herramientas DJ de código abierto</strong><ul style="padding-left:18px;margin:6px 0"><li><a href="https://hablamusic.github.io/bpm-key-finder/es/">Detector de BPM y tonalidad</a> · <a href="https://github.com/hablamusic/bpm-key-finder">GitHub</a></li><li><a href="https://hablamusic.github.io/awesome-ai-dj-prompts/es/">Prompts de IA para DJ</a> · <a href="https://github.com/hablamusic/awesome-ai-dj-prompts">GitHub</a></li></ul><a href="https://github.com/hablamusic">github.com/hablamusic</a></div>
+<div><strong>Creado por</strong> <a href="https://www.roimobi.com/?utm_source=github&utm_medium=pages&utm_campaign=camelot-wheel">Vlad Yasinski</a> · <a href="https://www.linkedin.com/in/vlad-yasinski-ua5er/">LinkedIn</a><br>Licencia: MIT · <a href="https://github.com/hablamusic/camelot-wheel">Código en GitHub</a><br><span class="small">Estadísticas anónimas de visitas sin cookies; nada se guarda en tu dispositivo. El audio que analizas nunca sale de tu navegador.</span><br><span class="small">Actualizado 2026-11-26</span></div>
+</div></footer>
+<script>window.T={"copy": "Copiar", "copied": "Copiado"};</script>
+<script src="../site.js" defer></script>
+<script>window.S={"notfound": "No reconocí la tonalidad. Prueba 8A, Am o La menor.", "kinds": {"safe": "segura", "energy": "sube energía", "creative": "creativa"}, "moves_h": "Mezcla con", "verdicts": {"great": "excelente", "good": "buena", "workable with edits": "posible con ajustes", "hard": "difícil"}, "stretch": "Estira la canción B un", "shift": "Mejor cambio de tono para la canción B", "semis": "semitonos", "lands": "queda en", "score": "Puntuación del mashup", "lang": "es"};</script><script type="module" src="../app.js"></script>
+<script src="../analytics.js" defer></script>
+</body>
+</html>

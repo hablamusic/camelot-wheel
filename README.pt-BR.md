@@ -1,12 +1,14 @@
 <div align="center">
 
-<img alt="camelot-wheel: roda Camelot e mixagem harmônica para DJ" src="assets/banner.svg" width="1280" height="320">
+<a href="https://hablamusic.github.io/camelot-wheel/pt/"><img alt="Roda Camelot da HablaMusic: toque num tom e veja com quais ele combina, grátis no navegador" src="assets/social-preview.jpg" width="1280" height="640"></a>
 
 [![Licença: MIT](https://img.shields.io/badge/licença-MIT-fb5607?style=flat-square&labelColor=1a1d20)](LICENSE)
 [![Sem dependências](https://img.shields.io/badge/dependências-0-fb5607?style=flat-square&labelColor=1a1d20)](package.json)
 [![Feito pela HablaMusic](https://img.shields.io/badge/feito_pela-HablaMusic-fb5607?style=flat-square&labelColor=1a1d20)](https://hablamusic.com/pt/learn/harmonic-mixing-camelot-wheel?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel)
 
 **A roda Camelot em código: converta qualquer tom para Camelot e Open Key, veja quais tons combinam, confira um mashup e ordene uma playlist como set harmônico.**
+
+<a href="https://hablamusic.github.io/camelot-wheel/pt/"><b>▶ Abra a roda interativa</b></a> · sem instalar, funciona no celular
 
 </div>
 
@@ -15,6 +17,20 @@
 # Roda Camelot: ferramentas de mixagem harmônica para DJ
 
 A roda Camelot dá a cada um dos 24 tons um código de 1A a 12B: o número é a posição num relógio (cada passo é uma quinta) e a letra é o modo (A = menor, B = maior). Duas faixas combinam quando os códigos são iguais, estão a um número de distância com a mesma letra, ou têm o mesmo número com a outra letra. O `camelot-wheel` transforma essa regra numa biblioteca JavaScript e numa CLI sem dependências: entende tons escritos de qualquer jeito (`8A`, `1m`, `Am`, `A minor`, `F#m`, `Lá menor`, `Fá# maior`), lista os movimentos seguros e de ganho de energia, avalia um mashup com o ajuste de tom necessário e ordena uma playlist com transições harmônicas. Teoria completa no [guia de mixagem harmônica e roda Camelot](https://hablamusic.com/pt/learn/harmonic-mixing-camelot-wheel?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel).
+
+## Comece aqui: escolha seu caminho
+
+<img align="right" src="assets/wheel.svg" alt="Roda Camelot animada: cada tom selecionado acende os tons com que combina" width="330">
+
+| Você é… | Faça isto |
+|---|---|
+| DJ e só quer a resposta | Abra a **[roda interativa](https://hablamusic.github.io/camelot-wheel/pt/)**, toque no seu tom e veja o que combina. Digite tons como quiser (Lá menor, Am, 8A) e confira um mashup. |
+| Tranquilo com copiar e colar | Com o [Node.js LTS](https://nodejs.org/pt) instalado, cole `npx github:hablamusic/camelot-wheel "Lá menor"` no Terminal ou PowerShell |
+| Usa Claude Code, Cursor ou Codex | `npx skills add hablamusic/camelot-wheel` e pergunte *"quais tons combinam com 8A?"* |
+
+Verde: movimentos seguros. Laranja: ganho de energia (+2, +7). Dourado: movimentos criativos.
+
+<br clear="right">
 
 ## Tabela da roda Camelot
 
@@ -62,3 +78,7 @@ No [criador de mashups grátis no navegador](https://hablamusic.com/pt/dj-tools/
 ## Licença
 
 MIT. Feito pela [HablaMusic](https://hablamusic.com/pt?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel). "Camelot" é usado aqui como o nome comum dessa notação entre DJs; o projeto não é afiliado à Mixed In Key.
+
+## Autor
+
+Criado por **Vlad Yasinski**, consultor de crescimento com IA ([roimobi.com](https://www.roimobi.com/?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel) · [LinkedIn](https://www.linkedin.com/in/vlad-yasinski-ua5er/)), como parte da [HablaMusic](https://hablamusic.com/pt?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel). Mais ferramentas de DJ grátis: [github.com/hablamusic](https://github.com/hablamusic) · [hablamusic.github.io](https://hablamusic.github.io/).

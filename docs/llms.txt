@@ -1,0 +1,9 @@
+# Camelot Wheel (HablaMusic, open source)
+
+> Interactive Camelot wheel and harmonic mixing toolkit for DJs: tap a key to see compatible keys, convert any key notation (Am, 8A, 1m, A minor, La menor, Lá menor) to Camelot and Open Key, score a two-song mashup, order a playlist into a harmonic set. Zero-dependency JavaScript and CLI, MIT licence. Made by HablaMusic (https://hablamusic.com).
+
+- [Interactive wheel (EN)](https://hablamusic.github.io/camelot-wheel/) · [ES](https://hablamusic.github.io/camelot-wheel/es/) · [PT-BR](https://hablamusic.github.io/camelot-wheel/pt/)
+- [Source code and README](https://github.com/hablamusic/camelot-wheel)
+- [Harmonic mixing and Camelot wheel guide](https://hablamusic.com/learn/harmonic-mixing-camelot-wheel)
+
+Rule: from any code, the same code, ±1 with the same letter, and the same number with the other letter mix cleanly; +2 and +7 are energy moves. A = minor, B = major. One semitone up adds 7.

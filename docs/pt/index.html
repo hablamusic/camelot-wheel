@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Roda Camelot interativa para mixagem harmônica (DJ)</title>
+<meta name="description" content="Toque num tom da roda Camelot interativa e veja com quais ele combina. Converta qualquer tom para Camelot e Open Key e confira se duas músicas dão um bom mashup. Grátis e open source.">
+<link rel="canonical" href="https://hablamusic.github.io/camelot-wheel/pt/">
+<link rel="alternate" hreflang="en" href="https://hablamusic.github.io/camelot-wheel/"><link rel="alternate" hreflang="es" href="https://hablamusic.github.io/camelot-wheel/es/"><link rel="alternate" hreflang="pt-BR" href="https://hablamusic.github.io/camelot-wheel/pt/"><link rel="alternate" hreflang="x-default" href="https://hablamusic.github.io/camelot-wheel/">
+<meta name="author" content="HablaMusic">
+<meta name="theme-color" content="#1a1d20">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="HablaMusic open source">
+<meta property="og:title" content="Roda Camelot interativa para DJ (grátis, open source)">
+<meta property="og:description" content="Toque num tom da roda Camelot interativa e veja com quais ele combina. Converta qualquer tom para Camelot e Open Key e confira se duas músicas dão um bom mashup. Grátis e open source.">
+<meta property="og:url" content="https://hablamusic.github.io/camelot-wheel/pt/">
+<meta property="og:image" content="https://hablamusic.github.io/camelot-wheel/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Roda Camelot interativa da HablaMusic com os tons compatíveis destacados">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../site.css">
+<link rel="preload" as="image" href="../hero.webp">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://hablamusic.com/#organization", "name": "HablaMusic", "url": "https://hablamusic.com", "logo": "https://hablamusic.com/icon-512.png", "sameAs": ["https://github.com/hablamusic"]}, {"@type": "Person", "@id": "https://www.roimobi.com/#person", "name": "Vlad Yasinski", "url": "https://www.roimobi.com", "sameAs": ["https://www.linkedin.com/in/vlad-yasinski-ua5er/", "https://github.com/ua5er"]}, {"@type": "WebApplication", "name": "Roda Camelot para mixagem harmônica", "url": "https://hablamusic.github.io/camelot-wheel/pt/", "applicationCategory": "MultimediaApplication", "operatingSystem": "Any (web browser)", "inLanguage": "pt-BR", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@id": "https://hablamusic.com/#organization"}, "creator": {"@id": "https://www.roimobi.com/#person"}, "description": "Toque num tom da roda Camelot interativa e veja com quais ele combina. Converta qualquer tom para Camelot e Open Key e confira se duas músicas dão um bom mashup. Grátis e open source."}, {"@type": "SoftwareSourceCode", "name": "camelot-wheel", "codeRepository": "https://github.com/hablamusic/camelot-wheel", "programmingLanguage": "JavaScript", "license": "https://opensource.org/licenses/MIT", "runtimePlatform": "Node.js 18+, web browsers", "author": {"@id": "https://hablamusic.com/#organization"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "O que é a roda Camelot?", "acceptedAnswer": {"@type": "Answer", "text": "Uma tabela que dá a cada um dos 24 tons um código de 1A a 12B. O número é a posição num relógio (cada passo é uma quinta) e a letra é o modo: A é menor, B é maior. DJs usam para escolher músicas cujos tons combinam."}}, {"@type": "Question", "name": "Quais tons Camelot combinam?", "acceptedAnswer": {"@type": "Answer", "text": "A partir de qualquer código: o mesmo, um número acima ou abaixo com a mesma letra, e o mesmo número com a outra letra. Dois passos acima (+2) ou sete (+7, um semitom) aumentam a energia em transições curtas."}}, {"@type": "Question", "name": "Qual a diferença entre Camelot e Open Key?", "acceptedAnswer": {"@type": "Answer", "text": "A mesma ideia com outros rótulos. O Open Key (Traktor) começa em Dó maior = 1d e Lá menor = 1m; no Camelot Dó maior = 8B e Lá menor = 8A."}}, {"@type": "Question", "name": "Mudar o pitch muda o código Camelot?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. Um semitom acima soma 7 (8A vira 3A). Sem key lock, acelerar a música uns 6 % sobe cerca de um semitom."}}, {"@type": "Question", "name": "Como descubro o tom das minhas músicas?", "acceptedAnswer": {"@type": "Answer", "text": "Use o detector de BPM e tom grátis: solte as músicas e ele mostra o código Camelot de cada uma."}}]}]}</script>
+
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="https://hablamusic.com/pt/?utm_source=github&utm_medium=pages&utm_campaign=camelot-wheel"><img src="../favicon.png" alt="" width="30" height="30">HablaMusic</a>
+<nav class="links" aria-label="Main"><a class="hide-m" href="https://hablamusic.github.io/bpm-key-finder/pt/">Detector de BPM e tom</a><a class="hide-m" href="https://hablamusic.github.io/awesome-ai-dj-prompts/pt/">Prompts de IA para DJ</a><a href="https://github.com/hablamusic/camelot-wheel">GitHub</a><span class="langs"><a href="../" hreflang="en">EN</a><a href="../es/" hreflang="es">ES</a><a href="../pt/" hreflang="pt-BR" aria-current=true>PT</a></span></nav>
+</div></header>
+<main id="main">
+
+<section class="hero"><img class="bgimg" src="../hero.webp" alt="" width="1600" height="700" fetchpriority="high"><div class="wrap">
+<span class="kicker"><b>●</b> grátis · open source · funciona offline</span>
+<h1>Roda Camelot para mixagem harmônica</h1>
+<p class="lede">Toque num tom e veja o que combina com ele: movimentos seguros, ganhos de energia e mudanças ousadas. Digite um tom em qualquer notação ou confira duas músicas para um mashup. Tudo roda no navegador.</p>
+<div class="ctas"><a class="btn hot" href="#app">Abrir a roda ↓</a><a class="btn" href="#mashup">Conferir um mashup</a></div>
+</div></section>
+<section id="app"><div class="wrap split">
+<div><svg id="wheel" viewBox="-210 -210 420 420" role="img" aria-label="Camelot wheel" style="width:100%;max-width:520px;display:block;margin:auto"></svg></div>
+<div><h2 style="font-size:22px">Toque num tom</h2>
+<label class="muted small" for="q">Digite um tom</label>
+<div style="display:flex;gap:8px;margin:6px 0 16px"><input id="q" placeholder="Lá menor, Am, 8A, Fá# menor, Si bemol maior…" style="flex:1" autocomplete="off"></div>
+<div id="sel" class="card" aria-live="polite"></div></div>
+</div></section>
+<section id="mashup"><div class="wrap"><h2>Essas duas músicas dão um mashup?</h2><p class="sub">Informe o BPM e o tom de cada música (do detector de BPM, Rekordbox ou Serato).</p>
+<form id="mf" class="grid3" style="align-items:end">
+<div class="card"><h3>Música A</h3><div style="display:flex;gap:8px"><input name="ba" type="number" min="40" max="220" step="0.1" value="96" aria-label="Música A BPM" style="width:90px"><input name="ka" value="8A" aria-label="Música A Tom" style="flex:1"></div></div>
+<div class="card"><h3>Música B</h3><div style="display:flex;gap:8px"><input name="bb" type="number" min="40" max="220" step="0.1" value="94" aria-label="Música B BPM" style="width:90px"><input name="kb" value="2A" aria-label="Música B Tom" style="flex:1"></div></div>
+<div><button class="btn hot" type="submit">Conferir</button></div></form>
+<div id="mres" class="card" style="margin-top:16px" aria-live="polite"></div></div></section>
+<section><div class="wrap"><h2>Tabela da roda Camelot</h2><p class="sub">Os 24 tons com os códigos Camelot e Open Key.</p>
+<div class="tablewrap"><table><thead><tr><th>Camelot</th><th>Menor</th><th>Open Key</th><th>Camelot</th><th>Maior</th><th>Open Key</th></tr></thead><tbody><tr><td><span class=pill>1A</span></td><td>Lá♭ menor</td><td>6m</td><td><span class=pill>1B</span></td><td>Si maior</td><td>6d</td></tr><tr><td><span class=pill>2A</span></td><td>Mi♭ menor</td><td>7m</td><td><span class=pill>2B</span></td><td>Fá# maior</td><td>7d</td></tr><tr><td><span class=pill>3A</span></td><td>Si♭ menor</td><td>8m</td><td><span class=pill>3B</span></td><td>Dó# maior</td><td>8d</td></tr><tr><td><span class=pill>4A</span></td><td>Fá menor</td><td>9m</td><td><span class=pill>4B</span></td><td>Lá♭ maior</td><td>9d</td></tr><tr><td><span class=pill>5A</span></td><td>Dó menor</td><td>10m</td><td><span class=pill>5B</span></td><td>Mi♭ maior</td><td>10d</td></tr><tr><td><span class=pill>6A</span></td><td>Sol menor</td><td>11m</td><td><span class=pill>6B</span></td><td>Si♭ maior</td><td>11d</td></tr><tr><td><span class=pill>7A</span></td><td>Ré menor</td><td>12m</td><td><span class=pill>7B</span></td><td>Fá maior</td><td>12d</td></tr><tr><td><span class=pill>8A</span></td><td>Lá menor</td><td>1m</td><td><span class=pill>8B</span></td><td>Dó maior</td><td>1d</td></tr><tr><td><span class=pill>9A</span></td><td>Mi menor</td><td>2m</td><td><span class=pill>9B</span></td><td>Sol maior</td><td>2d</td></tr><tr><td><span class=pill>10A</span></td><td>Si menor</td><td>3m</td><td><span class=pill>10B</span></td><td>Ré maior</td><td>3d</td></tr><tr><td><span class=pill>11A</span></td><td>Fá# menor</td><td>4m</td><td><span class=pill>11B</span></td><td>Lá maior</td><td>4d</td></tr><tr><td><span class=pill>12A</span></td><td>Dó# menor</td><td>5m</td><td><span class=pill>12B</span></td><td>Mi maior</td><td>5d</td></tr></tbody></table></div></div></section>
+<section><div class="wrap"><h2>Use no código ou no terminal</h2><p class="sub">JavaScript sem dependências para Node.js e navegadores, mais uma CLI.</p><div class="cmd"><pre><code>npx github:hablamusic/camelot-wheel &quot;Lá menor&quot;
+npx github:hablamusic/camelot-wheel mix 96 8A 94 2A</code></pre><button class="copy" type="button" data-copy="npx github:hablamusic/camelot-wheel &quot;Lá menor&quot;
+npx github:hablamusic/camelot-wheel mix 96 8A 94 2A">copy</button></div></div></section>
+<section id="faq"><div class="wrap"><h2>Perguntas frequentes</h2><details><summary>O que é a roda Camelot?</summary><p>Uma tabela que dá a cada um dos 24 tons um código de 1A a 12B. O número é a posição num relógio (cada passo é uma quinta) e a letra é o modo: A é menor, B é maior. DJs usam para escolher músicas cujos tons combinam.</p></details><details><summary>Quais tons Camelot combinam?</summary><p>A partir de qualquer código: o mesmo, um número acima ou abaixo com a mesma letra, e o mesmo número com a outra letra. Dois passos acima (+2) ou sete (+7, um semitom) aumentam a energia em transições curtas.</p></details><details><summary>Qual a diferença entre Camelot e Open Key?</summary><p>A mesma ideia com outros rótulos. O Open Key (Traktor) começa em Dó maior = 1d e Lá menor = 1m; no Camelot Dó maior = 8B e Lá menor = 8A.</p></details><details><summary>Mudar o pitch muda o código Camelot?</summary><p>Sim. Um semitom acima soma 7 (8A vira 3A). Sem key lock, acelerar a música uns 6 % sobe cerca de um semitom.</p></details><details><summary>Como descubro o tom das minhas músicas?</summary><p>Use o <a href="https://hablamusic.github.io/bpm-key-finder/pt/">detector de BPM e tom</a> grátis: solte as músicas e ele mostra o código Camelot de cada uma.</p></details></div></section>
+
+</main>
+<footer><div class="wrap cols">
+<div><strong>Feito pela <a href="https://hablamusic.com/pt/?utm_source=github&utm_medium=pages&utm_campaign=camelot-wheel">HablaMusic</a></strong><br>Gerador de música com IA e ferramentas de DJ grátis em português, espanhol e inglês.<br><a href="https://hablamusic.com/pt/dj-tools?utm_source=github&utm_medium=pages&utm_campaign=camelot-wheel">Ferramentas de DJ grátis</a></div>
+<div><strong>Mais ferramentas de DJ open source</strong><ul style="padding-left:18px;margin:6px 0"><li><a href="https://hablamusic.github.io/bpm-key-finder/pt/">Detector de BPM e tom</a> · <a href="https://github.com/hablamusic/bpm-key-finder">GitHub</a></li><li><a href="https://hablamusic.github.io/awesome-ai-dj-prompts/pt/">Prompts de IA para DJ</a> · <a href="https://github.com/hablamusic/awesome-ai-dj-prompts">GitHub</a></li></ul><a href="https://github.com/hablamusic">github.com/hablamusic</a></div>
+<div><strong>Criado por</strong> <a href="https://www.roimobi.com/?utm_source=github&utm_medium=pages&utm_campaign=camelot-wheel">Vlad Yasinski</a> · <a href="https://www.linkedin.com/in/vlad-yasinski-ua5er/">LinkedIn</a><br>Licença: MIT · <a href="https://github.com/hablamusic/camelot-wheel">Código no GitHub</a><br><span class="small">Estatísticas anônimas de visitas sem cookies; nada fica salvo no seu aparelho. O áudio que você analisa nunca sai do navegador.</span><br><span class="small">Atualizado 2026-11-26</span></div>
+</div></footer>
+<script>window.T={"copy": "Copiar", "copied": "Copiado"};</script>
+<script src="../site.js" defer></script>
+<script>window.S={"notfound": "Tom não reconhecido. Tente 8A, Am ou Lá menor.", "kinds": {"safe": "seguro", "energy": "mais energia", "creative": "criativo"}, "moves_h": "Combina com", "verdicts": {"great": "ótimo", "good": "bom", "workable with edits": "possível com ajustes", "hard": "difícil"}, "stretch": "Estique a música B em", "shift": "Melhor mudança de tom para a música B", "semis": "semitons", "lands": "cai em", "score": "Nota do mashup", "lang": "pt"};</script><script type="module" src="../app.js"></script>
+<script src="../analytics.js" defer></script>
+</body>
+</html>
