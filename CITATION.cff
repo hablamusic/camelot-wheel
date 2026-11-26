@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: If you use this in research or a publication, please cite it.
+title: camelot-wheel
+abstract: "Camelot wheel and harmonic mixing toolkit for DJs: convert keys (Camelot, Open Key, Am, La menor), list compatible keys and energy moves, check mashups and order a playlist into a harmonic set. Zero-dependency JS + CLI."
+type: software
+authors:
+  - name: HablaMusic
+    website: https://hablamusic.com
+repository-code: https://github.com/hablamusic/camelot-wheel
+license: MIT
+version: 0.1.0
+date-released: "2026-11-26"

@@ -1,0 +1,51 @@
+{
+  "name": "camelot-wheel",
+  "version": "0.1.0",
+  "description": "Camelot wheel and harmonic mixing toolkit for DJs: convert keys (Camelot, Open Key, Am, La menor), list compatible keys and energy moves, check mashups and order a playlist into a harmonic set. Zero-dependency JS + CLI.",
+  "type": "module",
+  "bin": {
+    "camelot": "bin/camelot.js",
+    "camelot-wheel": "bin/camelot.js"
+  },
+  "exports": {
+    ".": "./src/camelot.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "camelot",
+    "camelot-wheel",
+    "harmonic-mixing",
+    "open-key",
+    "musical-key",
+    "key-converter",
+    "mashup",
+    "dj",
+    "dj-tools",
+    "dj-set",
+    "circle-of-fifths",
+    "music-theory",
+    "cli",
+    "zero-dependency",
+    "claude-skills",
+    "agent-skills"
+  ],
+  "license": "MIT",
+  "author": "HablaMusic <support@hablamusic.com> (https://hablamusic.com)",
+  "homepage": "https://github.com/hablamusic/camelot-wheel#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hablamusic/camelot-wheel.git"
+  },
+  "bugs": "https://github.com/hablamusic/camelot-wheel/issues"
+}
