@@ -84,7 +84,7 @@ Sí: un semitono arriba suma 7 (8A → 3A). Sin key lock, acelerar un tema un 6 
 
 ## Relacionado
 
-- [bpm-key-finder](https://github.com/hablamusic/bpm-key-finder): detector de BPM y tonalidad · [awesome-ai-dj-prompts](https://github.com/hablamusic/awesome-ai-dj-prompts): prompts de IA para DJ
+- [bpm-key-finder](https://github.com/hablamusic/bpm-key-finder): detector de BPM y tonalidad · [awesome-ai-dj-prompts](https://github.com/hablamusic/awesome-ai-dj-prompts): prompts de IA para DJ · [suno-latin-producer](https://github.com/hablamusic/suno-latin-producer): prompts para Suno y revisor de letras
 - Guías: [mezcla armónica](https://hablamusic.com/es/learn/harmonic-mixing-camelot-wheel?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel) · [cómo hacer un mashup](https://hablamusic.com/es/learn/how-to-make-a-mashup?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel) · [cómo empezar a ser DJ](https://hablamusic.com/es/learn/how-to-start-djing?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel)
 
 ## Licencia

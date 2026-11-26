@@ -180,6 +180,7 @@ Yes. One semitone up moves the code +7 (8A → 3A); one semitone down moves it �
 
 - [bpm-key-finder](https://github.com/hablamusic/bpm-key-finder): BPM, key and Camelot code for audio files and folders.
 - [awesome-ai-dj-prompts](https://github.com/hablamusic/awesome-ai-dj-prompts): AI music prompts for DJ intros, outros and remix beds.
+- [suno-latin-producer](https://github.com/hablamusic/suno-latin-producer): Suno prompts, tags and lyrics checker for reggaeton, cumbia, funk carioca and DJ edits (Spanish and Portuguese syllable counting).
 - Guides: [harmonic mixing and the Camelot wheel](https://hablamusic.com/learn/harmonic-mixing-camelot-wheel?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel) · [how to make a mashup](https://hablamusic.com/learn/how-to-make-a-mashup?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel) · [how to beatmatch](https://hablamusic.com/learn/how-to-beatmatch?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel) · [Spanish: mezcla armónica](https://hablamusic.com/es/learn/harmonic-mixing-camelot-wheel?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel)
 
 ## License

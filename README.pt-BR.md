@@ -72,7 +72,7 @@ No [criador de mashups grátis no navegador](https://hablamusic.com/pt/dj-tools/
 
 ## Relacionado
 
-- [bpm-key-finder](https://github.com/hablamusic/bpm-key-finder) · [awesome-ai-dj-prompts](https://github.com/hablamusic/awesome-ai-dj-prompts)
+- [bpm-key-finder](https://github.com/hablamusic/bpm-key-finder) · [awesome-ai-dj-prompts](https://github.com/hablamusic/awesome-ai-dj-prompts) · [suno-latin-producer](https://github.com/hablamusic/suno-latin-producer): prompts para Suno e revisor de letras
 - Guias: [mixagem harmônica](https://hablamusic.com/pt/learn/harmonic-mixing-camelot-wheel?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel) · [como fazer um mashup](https://hablamusic.com/pt/learn/how-to-make-a-mashup?utm_source=github&utm_medium=readme&utm_campaign=camelot-wheel)
 
 ## Licença
